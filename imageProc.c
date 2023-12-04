@@ -90,7 +90,6 @@ PixelGray** rotate(PixelGray** matrix, int* width, int* height) {
 
     return newMatrix;
 }
-//main function - DO NOT MODIFY
 int main() {
     int width, height; // variable to hold width and height. Use reference in other functions
     PixelGray** image_original = readPGM("lenna.pgm", &width, &height);
